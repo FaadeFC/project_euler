@@ -31,6 +31,7 @@ def main():
     """ Execute the main program. """
     f = open("problem8.txt")
     number = ""
+    
     for line in f:
         number += line.strip()
     
