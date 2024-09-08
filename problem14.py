@@ -1,3 +1,4 @@
+# Which staring number, under one million, produces the longest chain?
 def collatz(n, i=1):
     """ Return the length of sequence from the Collatz sequence. """
     if n == 1:
